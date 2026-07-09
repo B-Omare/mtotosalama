@@ -1,0 +1,30 @@
+# MtotoSalama data source configuration
+# All sources here are publicly accessible — no authentication required
+# for this file's entries. See docs/ROADMAP.md for restricted sources.
+
+geographic_scope:
+  country: "Kenya"
+  region_name: "Former Nyanza and Western Provinces"
+  counties:
+    - Kisumu
+    - "Homa Bay"
+    - Migori
+    - Siaya
+    - Nyamira
+    - Kisii
+    - Kakamega
+    - Vihiga
+    - Busia
+    - Bungoma
+
+boundaries:
+  source: "GADM"
+  description: "Administrative boundary polygons, county level (GADM level 1)"
+  country_code: "KEN"
+  gadm_version: "4.1"
+  download_url_template: "https://geodata.ucdavis.edu/gadm/gadm4.1/gpkg/gadm41_{country_code}.gpkg"
+
+osm:
+  source: "OpenStreetMap"
+  description: "Health facility locations, road network"
+  access_method: "osmnx"
