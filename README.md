@@ -1,5 +1,7 @@
 # MtotoSalama
 
+![Tests](https://github.com/B-Omare/mtotosalama/actions/workflows/tests.yml/badge.svg)
+
 **A quantum-enhanced causal AI system for under-five mortality prediction and prevention in the Lake Victoria Basin**
 
 *Mtoto Salama = "Safe Child" in Swahili*
