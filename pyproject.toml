@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mtotosalama"
+version = "0.1.0"
+description = "A quantum-enhanced causal AI system for under-five mortality prediction and prevention in the Lake Victoria Basin"
+authors = [{ name = "Brian Omare", email = "omarebrian4@gmail.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
