@@ -7,8 +7,10 @@
 ## Overview
 
 MtotoSalama is an open-science research software project prototyping an early-warning
-and intervention-prioritisation system for under-five mortality in Western Kenya
-(Siaya, Kisumu, Homa Bay, Migori, Kakamega counties). It combines data engineering,
+and intervention-prioritisation system for under-five mortality across the ten counties
+of the former Nyanza and Western provinces of Kenya — Kisumu, Homa Bay, Migori, Siaya,
+Nyamira, Kisii, Kakamega, Vihiga, Busia, and Bungoma — a coherent regional bloc spanning
+the Lake Victoria basin and western highlands. It combines data engineering,
 causal inference, Bayesian survival modelling, and machine learning to explore how
 routinely collected health, climate, and satellite data could support community
 health worker (CHW) decision-making.
@@ -28,6 +30,15 @@ overstated claims of completeness.
 | OpenStreetMap / GADM | Public | Roads, facility locations, boundaries |
 | Siaya HDSS (KEMRI/CDC) | Restricted | Requires research agreement — not used; synthetic data substituted where structurally needed |
 | CHAMPS Network Kenya | Restricted | Requires data portal access — not used; synthetic data substituted where structurally needed |
+
+## Geographic scope
+
+Ten counties, former Nyanza and Western provinces:
+
+| Sub-region | Counties |
+|---|---|
+| Former Nyanza | Kisumu, Homa Bay, Migori, Siaya, Nyamira, Kisii |
+| Former Western | Kakamega, Vihiga, Busia, Bungoma |
 
 ## Project status
 
